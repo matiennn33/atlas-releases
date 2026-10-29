@@ -4,7 +4,7 @@ All notable changes to the ATLAS desktop app. Versions are the installers publis
 
 | Version | Date | In one line |
 |---|---|---|
-| [Next](#next-update--in-development) | in development | Pitwall keeps the whole race, Listen captions, season globe, drivers by face |
+| [0.1.6](#016--not-released-yet) | not released yet | Everything since 0.1.5: Pitwall keeps the whole race, Listen captions, season globe, drivers by face |
 | [0.1.5](#015--2026-10-24) | 2026-10-24 | Maintenance build |
 | [0.1.4](#014--2026-10-24) | 2026-10-24 | Speed-chart annotations lead with the fastest car; updates from 0.1.2 work again |
 | [0.1.3](#013--2026-10-24) | 2026-10-24 | Releases go live only once every file is uploaded |
@@ -14,9 +14,9 @@ All notable changes to the ATLAS desktop app. Versions are the installers publis
 
 ---
 
-## Next update — in development
+## 0.1.6 — not released yet
 
-What is being built for the next installer. It ships when it is ready; the app will offer it at start-up as usual.
+Everything changed since 0.1.5. The installer is not built yet; when it is published, the app offers it at start-up as usual.
 
 ### Pit wall
 
