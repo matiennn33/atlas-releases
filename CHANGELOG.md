@@ -4,6 +4,7 @@ All notable changes to the ATLAS desktop app. Versions are the installers publis
 
 | Version | Date | In one line |
 |---|---|---|
+| [Next](#next--not-released-yet) | — | Stay signed in to F1 TV, share any view as a card, a tidier comparison |
 | [0.1.7](#017--2026-10-31) | 2026-10-31 | Long runs rebuilt, a strategy simulator that runs on real data, and a calmer Analyze header |
 | [0.1.6](#016--2026-10-30) | 2026-10-30 | Everything since 0.1.5: Pitwall keeps the whole race, Listen captions, season globe, drivers by face |
 | [0.1.5](#015--2026-10-24) | 2026-10-24 | Maintenance build |
@@ -12,6 +13,32 @@ All notable changes to the ATLAS desktop app. Versions are the installers publis
 | [0.1.2](#012--2026-10-24) | 2026-10-24 | A download link that always points at the newest build |
 | [0.1.1](#011--2026-10-24) | 2026-10-24 | Updates from inside the app, signed |
 | [0.1.0](#010--2026-10-24) | 2026-10-24 | First public release |
+
+---
+
+## Next — not released yet
+
+Done since 0.1.7 and coming in the next installer.
+
+### F1 TV
+
+- **Sign in once, not every race weekend.** F1 TV's sign-in token lasts four days, and the app used to forget your formula1.com session right after you signed in, so live timing asked you to sign in again every weekend. The app now keeps that session on your computer and, when the token has less than a day left, fetches a new one in the background. If formula1.com asks for your password again, you sign in from Settings ▸ Live timing as before. Signing out still deletes the token and the session.
+
+### Share
+
+- **Every page can be shared.** A Share button in the masthead (or the S key, or *Share this view* in Ctrl K) turns what you are looking at into a post or story card: the page's one claim as the headline, drivers in their team colours, a caption with the right tags ready to copy, and a link that opens the same view. Panels swap their PNG button for Share.
+
+### Analyze
+
+- **One comparison table.** The sector waterfall moved into the field table: each sector cell carries its own delta bar on a shared scale, with the verdict and the field spread above it.
+- **A contents bar.** A numbered index sits above the chapters, follows your scroll and jumps to a chapter on click.
+- **Each figure shown once.** Sector times live only in the comparison table; the lap-time chapter's "Sectors" read became *Consistency* (own ideal lap, spread, laps counted).
+- **Driving style** is measured from the field median on one shared scale, biggest difference first.
+- **Braking, cornering and straights** read more cleanly: corners without a stop fold into one line, the cornering ribbon shows the deficit per lap grouped by sector, and each speed trap shows one figure per car.
+
+### Installer
+
+- **One installer file.** Each release now ships a single `ATLAS-Setup.exe`; the download link and the in-app updater use the same file, and updates download it whole.
 
 ---
 
