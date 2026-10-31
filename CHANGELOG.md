@@ -4,6 +4,7 @@ All notable changes to the ATLAS desktop app. Versions are the installers publis
 
 | Version | Date | In one line |
 |---|---|---|
+| [0.1.7](#017--2026-10-31) | 2026-10-31 | Long runs rebuilt, a strategy simulator that runs on real data, and a calmer Analyze header |
 | [0.1.6](#016--2026-10-30) | 2026-10-30 | Everything since 0.1.5: Pitwall keeps the whole race, Listen captions, season globe, drivers by face |
 | [0.1.5](#015--2026-10-24) | 2026-10-24 | Maintenance build |
 | [0.1.4](#014--2026-10-24) | 2026-10-24 | Speed-chart annotations lead with the fastest car; updates from 0.1.2 work again |
@@ -11,6 +12,45 @@ All notable changes to the ATLAS desktop app. Versions are the installers publis
 | [0.1.2](#012--2026-10-24) | 2026-10-24 | A download link that always points at the newest build |
 | [0.1.1](#011--2026-10-24) | 2026-10-24 | Updates from inside the app, signed |
 | [0.1.0](#010--2026-10-24) | 2026-10-24 | First public release |
+
+---
+
+## 0.1.7 — 2026-10-31
+
+Everything changed since 0.1.6. Install it over any earlier version, or accept the update prompt from 0.1.1 or later; sessions and layouts stay.
+
+### Long runs and strategy
+
+- **Strategy simulation you can trust.** The simulator used to price tyres from traffic laps and from different cars on different compounds, which produced a fake cliff and a 1.8 s gap between softs and mediums nobody had driven. It now fits each compound from steady laps only, compares cars with themselves, and only extrapolates to tyre ages that were actually run. A cliff is shown only if at least half the runs show it.
+- **It runs when you arrive.** The race is simulated on open, so the chapter starts on an answer instead of an empty form. The race length is prefilled with the Grand Prix's own distance, and the button is always available (*Race again* draws a new set of races).
+- **Inputs you can type into.** Values commit when you leave the field or press Enter; typing "71" no longer snaps to 10 on the way through "7".
+- **Two reads.** The compounds (pace, wear, cliff, stint life) next to the stint model they imply, with the tyre age where the curves cross; and the race, with each plan drawn as its legs, its median finish against the quickest and the p10–p90 spread on one shared scale.
+- **Race-pace order.** Each car's best run is put on the most-run compound, so the order across the field is comparable. It is labelled as modelled.
+- **Traces without the noise.** Slow laps move to a "Slower" rail under the plot, each run gets a dashed trend, and the compound's typical lap is a hairline.
+- **A fuller ledger.** Best lap, wear (trend, fuel-corrected), spread, and tyre-age span per run; chips and sentences use the driver's face and family name, and add the compound gap and drift.
+- **Run plan.** Lap axis fixed (it was off by one lap); short runs are outlines, long runs solid with their lap count.
+- **Across practice** is compact: one column per session, a spark per cell, a side-by-side delta and a rookie group.
+
+### Analyze
+
+- **The picker folds into the session header** once a session is open: the Grand Prix title is the switch, with Season, Round and Session menus beside it, and a *Download again* button. The "Session loaded" button and the pick-a-session eyebrow are gone.
+- **Lap times.** The scale fits flying laps and slower laps sit on a rail below; a hollow dot marks a deleted lap, the session best is labelled once, and picked laps carry a ring and a code tag.
+- **Lap tray.** Chips run fastest first with a delta on the others, and the bar is wider.
+- **Gap builds through the lap.** The comparison summary is now a sector waterfall: one row per rival on a shared scale, green for time taken back, red for time lost, with a sentence on each.
+- **Verdict.** New proofs for top speed, speed trap, the field spread and, in practice, laps run; the highlight only appears on hover or focus.
+- **Page loading** shows a thin line under the masthead and an outline of the page instead of a blank screen.
+
+### Pit wall
+
+- **Race calls open on their own** and stay open, up to three at once, with entry, ageing and exit motion. A call that settles replaces the open one for the same driver ("Under investigation › Noted"), and the exit is now visible.
+- **Timing summary** is one sentence: who leads by how much, how many cars are within a second, fastest lap, top speed, whether the pit lane is clear.
+- **Driver versus.** The interval sits inside the gap meter, empty rows are hidden, and a rival who cannot be compared is struck through.
+- **Track.** A short battle line on top, two-line sector cells, tag leader lines when labels pack, and corner numbers that follow the width.
+
+### Everywhere else
+
+- A dock and toolbar that lift as you scroll, a larger on-air dot, and a Ctrl K hint in the masthead.
+- Mexico City added to the data: straight-mode figures and FP2 metadata.
 
 ---
 
