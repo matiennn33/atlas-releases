@@ -4,7 +4,7 @@ All notable changes to the ATLAS desktop app. Versions are the installers publis
 
 | Version | Date | In one line |
 |---|---|---|
-| [Next](#next--not-released-yet) | — | Stay signed in to F1 TV, share any view as a card, a tidier comparison |
+| [0.1.8](#018--2026-10-31) | 2026-10-31 | Stay signed in to F1 TV, share any view as a card, a tidier comparison |
 | [0.1.7](#017--2026-10-31) | 2026-10-31 | Long runs rebuilt, a strategy simulator that runs on real data, and a calmer Analyze header |
 | [0.1.6](#016--2026-10-30) | 2026-10-30 | Everything since 0.1.5: Pitwall keeps the whole race, Listen captions, season globe, drivers by face |
 | [0.1.5](#015--2026-10-24) | 2026-10-24 | Maintenance build |
@@ -16,9 +16,9 @@ All notable changes to the ATLAS desktop app. Versions are the installers publis
 
 ---
 
-## Next — not released yet
+## 0.1.8 — 2026-10-31
 
-Done since 0.1.7 and coming in the next installer.
+Everything changed since 0.1.7. Install it over any earlier version, or accept the update prompt from 0.1.1 or later; sessions and layouts stay.
 
 ### F1 TV
 
