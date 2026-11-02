@@ -22,6 +22,12 @@ A free Formula 1 desktop app for Windows: the official live timing while the ses
   <img alt="Account" src="https://img.shields.io/badge/ATLAS%20account-none-111">
 </p>
 
+<p align="center">
+  <img src="media/dominance.gif" width="900" alt="ATLAS Track Dominance: Verstappen against Leclerc, Singapore 2026 qualifying, the circuit coloured by who was quicker and the gap traced along the lap">
+  <br>
+  <sub>Singapore 2026 qualifying. Verstappen beat Leclerc by 0.054 s: ATLAS shows the corner where each of them found it.</sub>
+</p>
+
 ---
 
 The TV shows you a few cars. ATLAS shows you every one of them: where they are, how far apart, on which tyres, how fast through each sector, and what race control has just decided. When the session is over, the same data stays on your computer, so you can put two laps on one rail and see exactly where the time was won.
@@ -31,6 +37,13 @@ The TV shows you a few cars. ATLAS shows you every one of them: where they are, 
 ## What you get
 
 ### During the session: your own pit wall
+
+<p align="center">
+  <img src="media/pitwall.gif" width="900" alt="ATLAS Pitwall replaying the 2026 United States Grand Prix: timing sheet, race diary, track map and the gap between the two leaders">
+  <br>
+  <sub>The Pitwall replaying the 2026 United States Grand Prix: timing, race diary, track map and the fight for the lead.</sub>
+</p>
+
 - **Official live timing.** Positions, gaps, intervals, lap and sector times, best sectors and mini-sectors, speed traps, pit stops, tyre ages. The same feed the teams' screens read, signed in with your own F1 TV subscription.
 - **Every car on the track map.** Live positions on the official circuit outline, battles highlighted, DRS zones marked.
 - **Race control, flags and safety car.** Decisions, investigations, penalties and track-limits strikes as they are published.
@@ -43,6 +56,18 @@ The TV shows you a few cars. ATLAS shows you every one of them: where they are, 
 - **Panels you arrange.** Thirty-plus panels (timing, track map, race trace, race pace, lap times, driver focus, teammate comparison, position changes, gaps, finish-line speed, report and more) to float, minimise, maximise, pop out to a second screen, and save as your own layouts.
 
 ### After the session: any lap since 2018, taken apart
+
+<table>
+  <tr>
+    <td width="50%"><img src="media/comparison.jpg" alt="Comparison summary: Verstappen and Leclerc's best laps, the gap sector by sector"></td>
+    <td width="50%"><img src="media/telemetry.jpg" alt="Telemetry channels: gap and speed traces on one distance axis, every corner annotated"></td>
+  </tr>
+  <tr>
+    <td align="center"><sub>Two laps, the gap sector by sector</sub></td>
+    <td align="center"><sub>Every channel on one distance axis</sub></td>
+  </tr>
+</table>
+
 - **Analyze.** Tick two or more drivers, pick the laps, press Analyze. The lap opens chapter by chapter: lap time and the gap along the lap, the braking zones, the corners, the straights, the session context.
 - **Telemetry channels.** Speed, throttle, brake, gear, RPM, DRS, battery state and ERS deployment, all drawn on one shared distance axis, so every trace lines up to the metre. Each corner and straight is annotated with who was fastest there and by how much.
 - **Track dominance.** The circuit coloured by who was quicker in each stretch, with the sector and mini-sector times behind it.
@@ -53,6 +78,19 @@ The TV shows you a few cars. ATLAS shows you every one of them: where they are, 
 - **Long runs.** Practice sessions read as race simulations: run traces grouped by compound, fuel-corrected pace.
 - **Race pace and tyre degradation.** Fuel-corrected field read for races and sprints, per-stint degradation per compound.
 - **Replays.** Run any stored session again at up to ten times speed, on the layout you built, as if it were live.
+
+<table>
+  <tr>
+    <td width="33%"><img src="media/race-story.jpg" alt="Race Story: the result, who led and the race in numbers"></td>
+    <td width="33%"><img src="media/long-runs.jpg" alt="Long runs: practice race-pace order and run traces by compound"></td>
+    <td width="33%"><img src="media/race-start.jpg" alt="Race Start: launch traces from the lights to the braking for turn 1"></td>
+  </tr>
+  <tr>
+    <td align="center"><sub>Race Story</sub></td>
+    <td align="center"><sub>Long runs</sub></td>
+    <td align="center"><sub>Race Start</sub></td>
+  </tr>
+</table>
 
 ### Around the championship
 - **Season register.** Every weekend and session since 2018 with what you have already downloaded, one click from the analysis.
