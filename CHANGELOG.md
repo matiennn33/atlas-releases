@@ -4,6 +4,7 @@ All notable changes to the ATLAS desktop app. Versions are the installers publis
 
 | Version | Date | In one line |
 |---|---|---|
+| [0.1.9](#019--2026-11-02) | 2026-11-02 | A TV delay that holds all race, a play bar that folds away, the right qualifying drop zone |
 | [0.1.8](#018--2026-10-31) | 2026-10-31 | Stay signed in to F1 TV, share any view as a card, a tidier comparison |
 | [0.1.7](#017--2026-10-31) | 2026-10-31 | Long runs rebuilt, a strategy simulator that runs on real data, and a calmer Analyze header |
 | [0.1.6](#016--2026-10-30) | 2026-10-30 | Everything since 0.1.5: Pitwall keeps the whole race, Listen captions, season globe, drivers by face |
@@ -13,6 +14,19 @@ All notable changes to the ATLAS desktop app. Versions are the installers publis
 | [0.1.2](#012--2026-10-24) | 2026-10-24 | A download link that always points at the newest build |
 | [0.1.1](#011--2026-10-24) | 2026-10-24 | Updates from inside the app, signed |
 | [0.1.0](#010--2026-10-24) | 2026-10-24 | First public release |
+
+---
+
+## 0.1.9 — 2026-11-02
+
+Everything changed since 0.1.8. Install it over any earlier version, or accept the update prompt from 0.1.1 or later; sessions and layouts stay.
+
+### Pitwall
+
+- **The TV delay stays where you set it.** You now type the delay in seconds (Enter or leaving the field applies it) instead of stepping by 5. The board is held that many seconds behind real time for the whole session: before, every frame the window lost (minimised, covered, or the session rebuilding as it grew) added to the delay, so the board drifted further behind the broadcast as the race went on. Pausing, changing speed, scrubbing or stepping a lap still lets go of the hold; *Go live* takes it back.
+- **The transport gets out of the way.** On a desktop pointer the play bar folds to a thin progress line at the foot of the board and comes back when you hover it, tab into it, open a menu, or move the clock from a hotkey. The new pin button keeps it on screen.
+- **Qualifying drop zone, right.** The elimination shading now follows the timing feed's own cut-off flag for every car in the drop zone, not only the car on the line, and a car knocked out by a deleted lap or a penalty is shown out whatever the timesheet order says. The cut-off line itself is drawn under the last safe place.
+- **Teammates by team, not by colour.** The Engineer panel pairs a driver with their teammate by the team the feed names, so a custom colour you picked for one car no longer splits the pair.
 
 ---
 
