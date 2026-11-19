@@ -5,10 +5,11 @@
 <h1 align="center">ATLAS</h1>
 
 <p align="center"><strong>Read the race like the pit wall.</strong><br>
-A free Formula 1 desktop app for Windows: the official live timing while the session runs, and any lap since 2018 taken apart afterwards. Telemetry, sectors, braking, tyres and strategy, measured to the metre.</p>
+A free Formula 1 desktop app for Windows and Mac: the official live timing while the session runs, and any lap since 2018 taken apart afterwards. Telemetry, sectors, braking, tyres and strategy, measured to the metre.</p>
 
 <p align="center">
   <a href="https://github.com/matiennn33/atlas-releases/releases/latest/download/ATLAS-Setup.exe"><strong>⬇ Download for Windows</strong></a>
+  &nbsp;·&nbsp; <a href="https://github.com/matiennn33/atlas-releases/releases/download/v0.1.10-mac/ATLAS-mac-arm64.dmg"><strong>⬇ Download for Mac</strong></a> (Apple Silicon, preview)
   &nbsp;·&nbsp; <a href="https://github.com/matiennn33/atlas-releases/releases/latest">Latest release</a>
   &nbsp;·&nbsp; <a href="CHANGELOG.md">Changelog</a>
   &nbsp;·&nbsp; <a href="https://atlasf1.app">atlasf1.app</a>
@@ -17,7 +18,7 @@ A free Formula 1 desktop app for Windows: the official live timing while the ses
 <p align="center">
   <img alt="Latest release" src="https://img.shields.io/github/v/release/matiennn33/atlas-releases?label=version&color=2448ff">
   <img alt="Downloads" src="https://img.shields.io/github/downloads/matiennn33/atlas-releases/total?color=2448ff">
-  <img alt="Platform" src="https://img.shields.io/badge/platform-Windows%2010%20%2F%2011%20·%2064--bit-111">
+  <img alt="Platform" src="https://img.shields.io/badge/platform-Windows%2010%2F11%20·%20macOS%20Apple%20Silicon-111">
   <img alt="Price" src="https://img.shields.io/badge/price-free-111">
   <img alt="Account" src="https://img.shields.io/badge/ATLAS%20account-none-111">
 </p>
@@ -107,11 +108,20 @@ The TV shows you a few cars. ATLAS shows you every one of them: where they are, 
 3. If **Windows SmartScreen** stops the installer, choose **More info**, then **Run anyway**. The installer is not yet signed with a paid publisher certificate; the message says nothing else. Every release lists the installer's SHA-256 so you can check what you downloaded.
 4. Open ATLAS, choose a weekend and a session. For live timing and for downloading a session you do not have yet, sign in with your F1 TV account under *Settings ▸ Live timing*: Formula 1 asks for that sign-in on its own feed.
 
+### On a Mac (preview)
+
+1. **[Download `ATLAS-mac-arm64.dmg`](https://github.com/matiennn33/atlas-releases/releases/download/v0.1.10-mac/ATLAS-mac-arm64.dmg)** (about 330 MB). It is for Macs with Apple Silicon (M1 or later) on macOS 13 Ventura or newer; Intel Macs are not supported yet.
+2. Open the disk image and drag **ATLAS** into **Applications**.
+3. The Mac build is not yet signed with an Apple developer certificate, so the first time macOS says it cannot check the app. Close the message, open **System Settings ▸ Privacy & Security**, scroll to *ATLAS was blocked* and choose **Open Anyway**. macOS remembers the choice.
+4. The Mac build does not update itself yet: download the newest disk image from this page when a new version is out. Your sessions and layouts stay.
+
+Sessions, layouts and logs live in `~/Library/Application Support/ATLAS Telemetry/`.
+
 ### Requirements
 
 | | |
 |---|---|
-| **System** | Windows 10 or 11, 64-bit. There is no macOS, Linux, phone or tablet version. |
+| **System** | Windows 10 or 11, 64-bit, or a Mac with Apple Silicon on macOS 13 or newer (preview). There is no Linux, phone or tablet version. |
 | **Disk** | About 1 GB installed, plus the sessions you download (a race weekend with telemetry is a few hundred MB). |
 | **Live timing and new sessions** | Your own active **F1 TV** subscription, signed in inside the app. Sessions already in your library replay and analyse without it. |
 | **Network** | Only to Formula 1's live timing and archive, the Jolpica results archive, Open-Meteo weather and the FIA documents site, all from your computer. ATLAS has no servers of its own. |
