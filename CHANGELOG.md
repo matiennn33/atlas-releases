@@ -4,6 +4,7 @@ All notable changes to the ATLAS desktop app. Versions are the installers publis
 
 | Version | Date | In one line |
 |---|---|---|
+| [Next](#next--not-released-yet) | — | Replays that play, a search that finds drivers and circuits, plainer words everywhere |
 | [0.1.9](#019--2026-11-02) | 2026-11-02 | A TV delay that holds all race, a play bar that folds away, the right qualifying drop zone |
 | [0.1.8](#018--2026-10-31) | 2026-10-31 | Stay signed in to F1 TV, share any view as a card, a tidier comparison |
 | [0.1.7](#017--2026-10-31) | 2026-10-31 | Long runs rebuilt, a strategy simulator that runs on real data, and a calmer Analyze header |
@@ -14,6 +15,34 @@ All notable changes to the ATLAS desktop app. Versions are the installers publis
 | [0.1.2](#012--2026-10-24) | 2026-10-24 | A download link that always points at the newest build |
 | [0.1.1](#011--2026-10-24) | 2026-10-24 | Updates from inside the app, signed |
 | [0.1.0](#010--2026-10-24) | 2026-10-24 | First public release |
+
+---
+
+## Next — not released yet
+
+Done since 0.1.9 and coming in the next installer.
+
+### Pitwall
+
+- **Rewatch plays.** A replay opened from *Rewatch* used to wait paused with the play bar folded away, so the first click seemed to do nothing. It now starts by itself once the recording has loaded (the loading line says "plays when ready"), and the play bar stays on screen whenever the replay is paused.
+- **Lapped cars read laps down.** The timing sheet and the order rail show a lapped car as "+1", "+2" laps instead of a seconds gap that did not exist.
+- **A late session stays live.** A session that starts late or runs long (Interlagos qualifying ran an hour late) keeps its live feed for up to two hours past the scheduled end, never past the next session's start.
+
+### Analyze
+
+- **The obvious pair first.** Opening a qualifying comparison picks pole and P2 from the last part of qualifying. Before, when a session carried no classification, a faster lap from a wet Q2 could pair P2 with P5.
+- **Change laps keeps your place.** Going back to pick other laps keeps the session, the grand prix and the laps you had picked.
+- **One Share.** The comparison header's menu is now *Save* (save the comparison, copy its link, or share it as a card), so the masthead's Share is the only Share on the page.
+
+### Search (Ctrl K)
+
+- **Finds drivers, teams and circuits.** Type a driver ("leclerc"), a team ("ferrari"), a country ("brazil") or a circuit ("interlagos quali"): case and accents no longer matter and words can come in any order. When nothing on your computer matches, it offers to download a session instead of an empty list.
+
+### Everywhere
+
+- **Plainer words.** "Store", "ingest", "packets" and "captures" are gone: sessions are *saved* and *on this computer*, replays are *recordings*.
+- **Settings reads cleanly.** A wide control (the session chips under Notifications) now sits under its text instead of squeezing it to one word a line, and Following no longer repeats its own title.
+- **Start page actions in two groups:** where to go (Live timing, Circuit dossier) and how not to miss it (reminder, calendar, Share).
 
 ---
 
